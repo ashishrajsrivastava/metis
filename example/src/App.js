@@ -11,10 +11,11 @@ import './App.css';
  *
  * for your app, use:
  *
- * import GoogleSheetsProvider from 'react-db-google-sheets';
- *
+ * *
  */
-import GoogleSheetsProvider from '../../dist';
+ import GoogleSheetsProvider from 'react-db-google-sheets';
+ 
+//import GoogleSheetsProvider from '../../dist';
 
 const App = () => (
   <GoogleSheetsProvider>
